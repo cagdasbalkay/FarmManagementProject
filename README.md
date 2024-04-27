@@ -11,37 +11,37 @@ Uygulamamız sırasıyla yüklenme ekranı, ana menü, giriş, diğer panellere 
 
 ## Geçiş Ekranı
 <p> Bu pencereden giriş paneline geçiş yapabiliriz ya da uygulamayı kapatabiliriz. </p>
-<img src = "images/anapanel.PNG" width = "480" height = "128">
+<img src = "images/anapanel.PNG" width = "500" height = "300">
 
 ## Giriş Ekranı
 <p> Bu pencereden ilgili kullanıcı adı ve şifreyle giriş yapabilir ya da ana menüye dönebiliriz.Eğer kullanıcı bilgileri yanlış girilirse buna uygun bir uyarı verilecektir. </p>
-<img src = "images/giriş.PNG" width = "490" height = "138">
+<img src = "images/giriş.PNG" width = "500" height = "300">
 
 ## Ana Ekran 
 <p> Bu ekran üzerinden diğer panellere geçiş yapabiliriz. </p>
-<img src = "images/anaekran.PNG" width = "335" height = "315">
+<img src = "images/anaekran.PNG" width = "500" height = "300">
 
 ## Hayvanlar Paneli
 <p> Bu pencereden hayvanlarla ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz. </p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/hayvanyonetimpaneli.PNG" width = "500" height = "300">
 
 ## Sağlık Paneli
 <p> Bu pencereden hayvanların sağlık durumu ile ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/saglikyonetimpaneli.PNG" width = "500" height = "300">
 
 ## Üretim Paneli
 <p> Bu pencereden hayvanların sağladığı ürünlerle ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/uretim.PNG" width = "500" height = "300">
 
 ## Ürün Satışları Paneli
 <p> Bu pencereden ürün satışları ile ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/satis.PNG" width = "500" height = "300">
 
 ## Finansal Yönetim Paneli
 <p> Bu pencereden finans kaynakları ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebilir ve finansal yönetimimizi gerçekleştirebiliriz.</p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/finans.PNG" width = "500" height = "300">
 
 ## Dashboard
 <p> Bu pencereden çiftlikle ilgili en önemli genel istatistikleri edinebiliriz.</p>
-<img src = "images/5.PNG" width = "539" height = "249">
+<img src = "images/dashboard.PNG" width = "500" height = "300">
 
