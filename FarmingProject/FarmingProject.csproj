@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{798AA151-6AFA-42A6-80B6-A81B52EFAD62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FarmingProject</RootNamespace>
+    <AssemblyName>FarmingProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLayer\FrmAdminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmAdminGiris.Designer.cs">
+      <DependentUpon>FrmAdminGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmAdminPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmAdminPaneli.Designer.cs">
+      <DependentUpon>FrmAdminPaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmAnaMenu.Designer.cs">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmFinansal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmFinansal.Designer.cs">
+      <DependentUpon>FrmFinansal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmHayvanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmHayvanlar.Designer.cs">
+      <DependentUpon>FrmHayvanlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmSaglik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmSaglik.Designer.cs">
+      <DependentUpon>FrmSaglik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmUretim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmUretim.Designer.cs">
+      <DependentUpon>FrmUretim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmUrunSatislari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmUrunSatislari.Designer.cs">
+      <DependentUpon>FrmUrunSatislari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayer\FrmYuklenmeEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayer\FrmYuklenmeEkrani.Designer.cs">
+      <DependentUpon>FrmYuklenmeEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceLayer\SVeritabani.cs" />
+    <EmbeddedResource Include="FormLayer\FrmAdminGiris.resx">
+      <DependentUpon>FrmAdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmAdminPaneli.resx">
+      <DependentUpon>FrmAdminPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmAnaMenu.resx">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmFinansal.resx">
+      <DependentUpon>FrmFinansal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmHayvanlar.resx">
+      <DependentUpon>FrmHayvanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmSaglik.resx">
+      <DependentUpon>FrmSaglik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmUretim.resx">
+      <DependentUpon>FrmUretim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmUrunSatislari.resx">
+      <DependentUpon>FrmUrunSatislari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayer\FrmYuklenmeEkrani.resx">
+      <DependentUpon>FrmYuklenmeEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
