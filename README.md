@@ -9,19 +9,39 @@ Uygulamamız sırasıyla yüklenme ekranı, ana menü, giriş, diğer panellere 
 <p> Bu ekran, uygulama açılırken uygulama toparlanana kadar kullanıcının bir müddet beklemesini sağlayan bir ekrandır.Bu yönüyle projemize hem bir fonksiyonellik hem de tasarımsal olarak bir iyileştirme sunmaktadır. </p>
 <img src = "images/yuklenmeekrani.PNG" width = "500" height = "300">
 
-## Ana Pencere
-<p> Bu pencereden kategori işlemleri, ürün işlemleri veya istatistikler ekranına geçiş yapabiliriz. </p>
-<img src = "images/2.PNG" width = "480" height = "128">
+## Geçiş Ekranı
+<p> Bu pencereden giriş paneline geçiş yapabiliriz ya da uygulamayı kapatabiliriz. </p>
+<img src = "images/anapanel.PNG" width = "480" height = "128">
 
-## Kategori İşlemleri Penceresi
-<p> Bu pencereden var olan kategorileri listeleyebilir, kategori ekleme,silme güncelleme işlemleri gerçekleştirebiliriz. </p>
-<img src = "images/3.PNG" width = "490" height = "138">
+## Giriş Ekranı
+<p> Bu pencereden ilgili kullanıcı adı ve şifreyle giriş yapabilir ya da ana menüye dönebiliriz.Eğer kullanıcı bilgileri yanlış girilirse buna uygun bir uyarı verilecektir. </p>
+<img src = "images/giriş.PNG" width = "490" height = "138">
 
-## Ürün İşlemleri Penceresi 
-<p> Bu pencereden var olan ürünleri listeleyebilir, ürün ekleme,silme güncelleme işlemleri gerçekleştirebiliriz. </p>
-<img src = "images/4.PNG" width = "335" height = "315">
+## Ana Ekran 
+<p> Bu ekran üzerinden diğer panellere geçiş yapabiliriz. </p>
+<img src = "images/anaekran.PNG" width = "335" height = "315">
 
-## İstatistikler Penceresi
-<p> Bu pencereden stokta mevcut olan ürünlerle ilgili istatistikleri görüntüleyebiliriz. </p>
+## Hayvanlar Paneli
+<p> Bu pencereden hayvanlarla ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz. </p>
+<img src = "images/5.PNG" width = "539" height = "249">
+
+## Sağlık Paneli
+<p> Bu pencereden hayvanların sağlık durumu ile ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
+<img src = "images/5.PNG" width = "539" height = "249">
+
+## Üretim Paneli
+<p> Bu pencereden hayvanların sağladığı ürünlerle ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
+<img src = "images/5.PNG" width = "539" height = "249">
+
+## Ürün Satışları Paneli
+<p> Bu pencereden ürün satışları ile ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebiliriz.  </p>
+<img src = "images/5.PNG" width = "539" height = "249">
+
+## Finansal Yönetim Paneli
+<p> Bu pencereden finans kaynakları ilgili listeleme, ekleme,silme,güncelleme işlemlerini gerçekleştirebilir ve finansal yönetimimizi gerçekleştirebiliriz.</p>
+<img src = "images/5.PNG" width = "539" height = "249">
+
+## Dashboard
+<p> Bu pencereden çiftlikle ilgili en önemli genel istatistikleri edinebiliriz.</p>
 <img src = "images/5.PNG" width = "539" height = "249">
 
