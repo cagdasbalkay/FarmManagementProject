@@ -11,7 +11,7 @@ Uygulamamız sırasıyla yüklenme ekranı, ana menü, giriş, diğer panellere 
 
 ## Geçiş Ekranı
 <p> Bu pencereden giriş paneline geçiş yapabiliriz ya da uygulamayı kapatabiliriz. </p>
-<img src = "images/anapanel.PNG" width = "400" height = "200">
+<img src = "images/anapanel.PNG" width = "300" height = "150">
 
 ## Giriş Ekranı
 <p> Bu pencereden ilgili kullanıcı adı ve şifreyle giriş yapabilir ya da ana menüye dönebiliriz.Eğer kullanıcı bilgileri yanlış girilirse buna uygun bir uyarı verilecektir. </p>
