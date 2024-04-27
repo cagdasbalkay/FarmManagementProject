@@ -6,7 +6,7 @@ Uygulamamız sırasıyla yüklenme ekranı, ana menü, giriş, diğer panellere 
 
 ### Yükleme Ekranı
 <p> Bu ekran, uygulama açılırken uygulama toparlanana kadar kullanıcının bir müddet beklemesini sağlayan bir ekrandır.Bu yönüyle projemize hem bir fonksiyonellik hem de tasarımsal olarak bir iyileştirme sunmaktadır. </p>
-<img src = "images/yuklenmeekrani.PNG" width = "400" height = "300">
+<img src = "images/yuklenmeekrani.PNG" width = "500" height = "300">
 
 ## Ana Pencere
 <p> Bu pencereden kategori işlemleri, ürün işlemleri veya istatistikler ekranına geçiş yapabiliriz. </p>
